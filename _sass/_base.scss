@@ -222,7 +222,7 @@ blockquote {
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-nav);
+  border: 1px solid var(--global-divider-grey);
 
   a:not(.active) {
     color: var(--global-text-color);
@@ -443,7 +443,7 @@ footer.sticky-bottom {
 
   .card {
     background-color: var(--global-card-bg-color);
-    border: 1px solid var(--global-divider-color);
+    border: 1px solid var(--global-divider-grey);
 
     .list-group-item {
       background-color: inherit;
