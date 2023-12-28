@@ -215,14 +215,14 @@ blockquote {
 
 .navbar {
   box-shadow: none;
-  border-bottom: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-nav);
   background-color: var(--global-bg-color);
   opacity: 0.95;
 }
 
 .navbar .dropdown-menu {
   background-color: var(--global-bg-color);
-  border: 1px solid var(--global-divider-color);
+  border: 1px solid var(--global-divider-nav);
 
   a:not(.active) {
     color: var(--global-text-color);
@@ -255,10 +255,13 @@ blockquote {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-variant: all-small-caps;
+
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-variant: small-caps;
 
     &:hover {
       color: var(--global-hover-color);
@@ -267,7 +270,8 @@ blockquote {
 
   .navbar-nav .nav-item.active>.nav-link {
     background-color: inherit;
-    font-weight: bolder;
+    // font-weight: bolder;
+    font-weight: 500;
     color: var(--global-theme-color);
 
     &:hover {
