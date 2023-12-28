@@ -1,3 +1,11 @@
+# KT 
+- top nav determined by pages in `_pages`
+- moved extraneous templates to `__archive`
+- except blog folder which is in main level folder not inside pages
+- commented out all blog related section stuff in `_config.yml` to get rid of blog in navbar
+- order of pages in navbar determined by `nav_order` header on each individual layout in `_pages`
+
+
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
