@@ -1,34 +1,54 @@
-- title: General Information
+- title: 
   type: map
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+    - name: Bio
+      value: Amy Rae Fox, PhD 
+    - name: Citizenship
+      value: Canada, USA
     - name: Languages
-      value: English, German
+      value: English, French (B1)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: PhD — Cognitive Science
+      institution: University of California San Diego
+      year: 2022
+    - title: MA — Cognitive Visualization
+      institution: California State University Chico 
+      year: 2015
+    - title: MSEd — Instructional Design
+      institution: Université Pierre Mendès-France
+      year: 2015
+    - title: BSc — Computer Science
+      institution: University of North Carolina at Chapel Hill
+      year: 2004
+      
 
-- title: Experience
+- title: Academic Appointments
+  type: time_table
+  contents:
+    - title: Distinguished Postdoctoral Fellow
+      institution: Massachussetts Institute of Technology
+      year: 2022 - 2024
+
+    - title: PhD Student Researcher
+      institution: The Design Lab (UCSD Cognitive Science)
+      year: 2015 - 2022
+
+    - title: PhD Student Researcher
+      institution: Early Learning & Cognition Lab (UCSD Psychology)
+      year: 2017 - 2022
+
+    - title: Visiting Research Intern
+      institution: US DoE ORNL
+      year: 2016 
+
+    - title: MA Student Researcher
+      institution: Cognitive Visualization Research Lab (CSU-Chico)
+      year: 2014 - 2015
+
+- title: Professional Experience
   type: time_table
   contents:
     - title: Professor of Theoretical Physics
@@ -59,15 +79,8 @@
 
     - title: Associate Professor of Theoretical Physics
       institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
+      year: 1909 - 1911      
+      
 - title: Honors and Awards
   type: time_table
   contents:
@@ -79,17 +92,22 @@
       items: 
         - Max Planck Medal
 
-- title: Academic Interests
+- title: Academic Service
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Ad-Hoc Reviewing
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Annual Meeting of the Cognitive Science Society
+        - Intl Conference on the Theory and Application of Diagrams 
+        - IEEE VIS, IEEE TVCG
+        - ACM CHI, NordiCHI
+        - ACM UIST
+        - ACM CSCW
+    - title: Conference Organizing
       items:
-        - Description 1.
-        - Description 2.
+        - Diagrams | Program Committee (Psychology & Education Track)
+        - ACM C&C | Local Arrangements Chair (2019)
+        - ACM DIS | Art Event Coordinator (2019)
 
 - title: Other Interests
   type: list
