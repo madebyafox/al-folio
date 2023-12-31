@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: AMY RAE FOX # the website title (if blank, full name will be used instead)
-first_name: Amy
+first_name: Amy 
 middle_name: Rae
 last_name: Fox
 email: amyraefoxphd@gmail.com
@@ -272,17 +272,19 @@ display_categories: ['blockquotes'] # these categories will be displayed on the 
 scholar:
 
   last_name: [Fox]
-  first_name: [Amy, R.]
+  first_name: [Amy Rae]
 
   style: apa
   locale: en
 
   source: /_bibliography/
-  bibliography: papers.bib
-  bibliography_template: bib
+  bibliography: fox_publications.bib
+  bibliography_template: bib_fox
+ 
   # Note: if you have latex math in your bibtex, the latex filter
   # preprocessing may conflict with MathJAX if the latter is enabled.
   # See https://github.com/alshedivat/al-folio/issues/357.
+  
   bibtex_filters: [latex, smallcaps, superscript]
 
   replace_strings: true

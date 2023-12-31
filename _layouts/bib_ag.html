@@ -1,7 +1,6 @@
 ---
 ---
 <!-- _layouts/bib.html -->
-<!-- set as layout in _config.yml  -->
       <div class="row">
         {%- if site.enable_publication_thumbnails -%}
         <div class="col-sm-2 {% if entry.preview %}preview{% else %}abbr{% endif %}">
@@ -12,7 +11,6 @@
             {%- assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' -%}
             {% include figure.html
             path=entry_path
-            sizes = "200px"
             class="preview z-depth-1 rounded"
             zoomable=false
             alt=entry.preview -%}
@@ -110,7 +108,7 @@
         {%- endif -%}
 
         </div>
-        
+
         <!-- Journal/Book title and date -->
         {% assign proceedings = "inproceedings,incollection" | split: ','%}
         {% assign thesis = "thesis,mastersthesis,phdthesis" | split: ','%}
@@ -134,9 +132,11 @@
         <div class="periodical">
           {{ periodical | strip }}
         </div>
-        <div class="periodical">
-          {{ entry.note | strip }}
-        </div>
+        {%- if entry.note -%}
+          <div class="pub-note">
+            {{entry.note}}
+          </div>
+        {%- endif -%}
 
           <!-- Links/Buttons -->
           <div class="links">
@@ -146,6 +146,9 @@
           {%- if entry.arxiv %}
             <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
           {%- endif %}
+          {% if entry.biorxiv %}
+            <a href="https://www.biorxiv.org/content/{{ entry.biorxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank">bioRxiv</a>
+          {% endif %}
           {%- if entry.bibtex_show %}
             <a class="bibtex btn btn-sm z-depth-0" role="button">Bib</a>
           {%- endif %}
@@ -154,9 +157,9 @@
           {%- endif %}
           {%- if entry.pdf %}
             {% if entry.pdf contains '://' -%}
-            <a href="{{ entry.pdf }}" target="_blank" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- else -%}
-            <a href="{{ entry.pdf | prepend: '/assets/publications/' | relative_url }}" target="_blank" class="btn btn-sm z-depth-0" role="button">PDF</a>
+            <a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
             {%- endif %}
           {%- endif %}
           {%- if entry.supp %}
@@ -166,15 +169,15 @@
             <a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button">Supp</a>
             {%- endif %}
           {%- endif %}
-          {%- if entry.video %}
-            <a class="abstract btn btn-sm z-depth-0" role="button">Video</a>
-          {%- endif %}
           {%- if entry.blog %}
             <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
           {%- endif %}
           {%- if entry.code %}
             <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
           {%- endif %}
+          {% if entry.dataset %}
+          <a href="{{ entry.dataset }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Dataset</a>
+          {% endif %}
           {%- if entry.poster %}
             {% if entry.poster contains '://' -%}
             <a href="{{ entry.poster }}" class="btn btn-sm z-depth-0" role="button">Poster</a>
@@ -241,13 +244,5 @@
             {% highlight bibtex %}{{ entry.bibtex | hideCustomBibtex }}{% endhighlight %}
           </div>
           {%- endif %}
-
-          {% if entry.video -%}
-          <!-- Hidden video block -->
-          <div class="abstract hidden">
-            <div style="text-align: center;">{% include video.html path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
-          </div>
-          {%- endif -%}
-
         </div>
       </div>
