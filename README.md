@@ -4,7 +4,8 @@
 - except blog folder which is in main level folder not inside pages
 - commented out all blog related section stuff in `_config.yml` to get rid of blog in navbar
 - order of pages in navbar determined by `nav_order` header on each individual layout in `_pages`
-
+- ABOUT (default landing page) layout set on about.md markdown 
+- to have site title render as name the `_config.yml` needs to be set to the word `blank` rather than left blank --> that's dumb, right?
 
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->

@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: AMY RAE FOX # the website title (if blank, full name will be used instead)
+title: blank # the website title (if blank, full name will be used instead)
 first_name: Amy 
 middle_name: Rae
 last_name: Fox
@@ -295,7 +295,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: type
+  group_by: year
   group_order: descending
 
 # Display different badges withs stats for your publications
