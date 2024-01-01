@@ -64,6 +64,10 @@ img {
   max-width: 90vw;
 }
 
+.rounded-custom{
+  border-radius: 8%;
+}
+
 blockquote {
   background: var(--global-bg-color);
   border-left: 5px solid var(--global-theme-color);
@@ -222,6 +226,7 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-nav);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  // font-family: Avenir, Arial, Helvetica, sans-serif;
 }
 
 .navbar .dropdown-menu {
