@@ -226,7 +226,8 @@ blockquote {
   border-bottom: 1px solid var(--global-divider-nav);
   background-color: var(--global-bg-color);
   opacity: 0.95;
-  // font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-family: Avenir, Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 
 .navbar .dropdown-menu {
@@ -283,7 +284,7 @@ blockquote {
   .navbar-nav .nav-item.active>.nav-link {
     background-color: inherit;
     // font-weight: bolder;
-    font-weight: 500;
+    font-weight: 800;
     color: var(--global-theme-color);
 
     &:hover {
