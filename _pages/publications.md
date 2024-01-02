@@ -9,6 +9,16 @@ nav_order: 4
 <!-- _pages/publications.md -->
 <div class="publications">
 
-{% bibliography -f {{ site.scholar.bibliography }} %}
+
+<h1>ARTICLES
+<span class="description"> &nbsp; peer-reviewed, archival</span></h1>
+{% bibliography --file 1_articles.bib %}
+
+<h1>BOOK CHAPTERS </h1>
+{% bibliography --file 2_chapters.bib %}
+
+<h1> CONFERENCE PROCEEDINGS
+<span class="description"> &nbsp; peer-reviewed, non-archival</span></h1>
+{% bibliography --file 3_proceedings.bib %}
 
 </div>
