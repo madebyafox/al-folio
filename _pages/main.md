@@ -9,7 +9,7 @@ profile:
   align: right
   image: profile.png
   image_circular: false # true crops the image to make it circular
-  more_info: 
+  more_info: here is more info what is supposed to be here??
     
   
 news: false  # includes a list of news items
