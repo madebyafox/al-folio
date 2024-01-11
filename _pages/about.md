@@ -8,7 +8,7 @@ subtitle:  Cognitive Science · Research  | Design
 profile:
   align: right
   image: profile.png
-  image_circular: false # crops the image to make it circular
+  image_circular: false # true crops the image to make it circular
   more_info: 
     
   
