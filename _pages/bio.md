@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /community/
-title: community
-description: Materials for courses you taught. Replace this text with your description.
+permalink: /bio/
+title: bio
+description: personal bio
 nav: true
-nav_order: 5
+nav_order: 1
 ---
 
 For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
