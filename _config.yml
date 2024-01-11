@@ -8,7 +8,7 @@ middle_name: Rae
 last_name: Fox
 email: amyraefoxphd@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  personal webpage for Dr. Amy Rae Fox
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website  # add your own keywords or leave empty
@@ -45,8 +45,8 @@ rss_icon: false
 # Layout
 # -----------------------------------------------------------------------------
 
-navbar_fixed: true
-footer_fixed: true
+navbar_fixed: true #false makes navbar not sticky to top
+footer_fixed: true #false makes footer not sticky to top — also loses its styling
 
 # Dimensions
 max_width: 900px
