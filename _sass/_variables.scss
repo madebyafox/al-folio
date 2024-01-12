@@ -23,12 +23,14 @@ $pink-color:          #f92080 !default;
 $pink-color-light:    #ffdddd !default;
 $yellow-color:        #efcc00 !default;
 $ucsd-blue:           #03619B !default;
+$ucsd-blue-light:     #5090b7;
 $ucsd-dark-blue:      #172B49 !default;
 $ucsd-yellow:         #FFCD00 !default;
 $ucsd-green:          #6D963B !default;
 
 $grey-color:          #828282 !default;
 $grey-color-light:    lighten($grey-color, 40%);
+$grey-color-medium:   #a19696;
 $grey-color-dark:     #1C1C1D;
 $grey-900:            #212529;
 

@@ -229,6 +229,7 @@ blockquote {
   opacity: 0.95;
   font-family: Avenir, Arial, Helvetica, sans-serif;
   font-weight: 500;
+  z-index: depth 5;
 }
 
 .navbar .dropdown-menu {
@@ -428,20 +429,23 @@ blockquote {
 
 // Footer
 footer.fixed-bottom {
-  background-color: var(--global-footer-bg-color);
+  // background-color: var(--global-footer-bg-color);
+  background-color: var(--global-bg-color);
   font-size: 0.75rem;
+  z-index: depth 1;
 
   .container {
     color: var(--global-footer-text-color);
     padding-top: 9px;
     padding-bottom: 8px;
+    text-align: center;
   }
 
   a {
     color: var(--global-footer-link-color);
 
     &:hover {
-      color: var(--global-theme-color);
+      color: var(--global-theme-contrast);
       text-decoration: none;
     }
   }

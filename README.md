@@ -11,6 +11,7 @@
 - adding the class font-weight-lighter along with title class to the navbar-brand in header.html is what highlights the last name 
 - can change name of pages in _pages seemingly without ill effect, what matters is the frontmatter yaml  
 - in default.html set set custom navbar style with header-custom.html (instead of header.html)
+- added depth to header and footer by adding class z-depth-1 to the layout files for header and footer
 
 
 # al-folio
