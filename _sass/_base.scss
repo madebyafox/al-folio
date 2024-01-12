@@ -66,7 +66,7 @@ img {
 }
 
 .rounded-custom{
-  border-radius: 8%;
+  border-radius: 5%;
 }
 
 blockquote {
@@ -177,6 +177,12 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    // font-family: sans-serif;
+    // font-family:'Courier New', Courier, monospace;
+    // font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: small;
+    
 
     p {
       display: inline-block;
