@@ -267,7 +267,8 @@ blockquote {
   .navbar-brand {
     color: var(--global-text-color);
     font-variant: all-small-caps;
-    font-size: x-large;
+    font-size: xx-large;
+    font-weight: 200;
     
     
 
@@ -924,7 +925,7 @@ progress {
 
   /* Dimensions */
   width: 100%;
-  height: 1px;
+  height: 5px;
 
   /* Reset the appearance */
   -webkit-appearance: none;
@@ -936,9 +937,11 @@ progress {
 
   /* Progress bar container for Firefox/IE10  */
   background-color: transparent;
+    // background-color: var(--global-divider-grey);
+    // background-color: var(--global-theme-color);
 
   /* Progress bar value for IE10  */
-  color: var(--global-theme-color);
+  color: transparent
 }
 
 progress::-webkit-progress-bar {
@@ -950,7 +953,7 @@ progress::-webkit-progress-value {
 }
 
 progress::-moz-progress-bar {
-  background-color: var(--global-theme-color);
+  background-color: transparent;
 }
 
 .progress-container {
