@@ -8,6 +8,19 @@
     - name: Languages
       value: English, French (B1)
 
+- title: Research Interests
+  type: map
+  contents:
+    - name: cognition
+      value: graph comprehension, diagrammatic reasoning, representational competency, visualization literacy
+    - name: computing
+      value: information visualization, accessible visualization, personal information environments, personal knowledge management, interruption & task resumption
+    - name: interdisciplinary
+      value: semiotics, philosophy of information, science communication
+    - name: pedagogy
+      value: Course-Based Undergraduate Research Experiences
+
+
 - title: Education
   type: time_table
   contents:
@@ -28,24 +41,22 @@
 - title: Academic Appointments
   type: time_table
   contents:
-    - title: Distinguished Postdoctoral Fellow
-      institution: Massachussetts Institute of Technology
+    - title: Distinguished Postdoctoral Fellow, MIT
+      institution: CSAIL, EECS, School of Engineering
+      department: The Visualization Group
       year: 2022 - 2024
 
-    - title: PhD Student Researcher
-      institution: The Design Lab (UCSD Cognitive Science)
+    - title: PhD Student Researcher, UC San Diego
+      institution: Department of Cognitive Science 
+      department: The Design Lab, Early Learning & Cognition Lab 
       year: 2015 - 2022
 
-    - title: PhD Student Researcher
-      institution: Early Learning & Cognition Lab (UCSD Psychology)
-      year: 2017 - 2022
-
-    - title: Visiting Research Intern
-      institution: US DoE ORNL
-      year: 2016 
+    - title: DHS STEM Research Intern
+      institution: Oak Ridge National Laboratory (ORNL)
+      year: summer 2016 
 
     - title: MA Student Researcher
-      institution: Cognitive Visualization Research Lab (CSU-Chico)
+      institution: Cognitive Visualization Research Lab 
       year: 2014 - 2015
 
 - title: Professional Experience

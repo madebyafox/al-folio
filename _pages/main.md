@@ -21,7 +21,7 @@ social: false  # includes social icons at the bottom of the page
 ---
 <b> I study Human-Information Interaction. </b> At the intersection of cognitive, information, and learning sciences, I explore how humans create and appropriate tools for thinking. These cognitive technologies range from stunning interactive visualizations of data, simple charts and graphs, diagrams, systems of notation, to even the text on this screen.
 
-<b>_I leverage what we know about human cognition to inform the design of tools for thinking, and study their everyday use to learn about human cognition._</b>
+<b>I leverage what we know about human cognition to inform the design of tools for thinking, and study their everyday use to learn about human cognition.</b>
 
 
 
