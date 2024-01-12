@@ -8,6 +8,10 @@
 - to have site title render as name the `_config.yml` needs to be set to the word `blank` rather than left blank --> that's dumb, right?
 - styling of navbar in `_includes/header.html`
 - pdf of publications stored in assets/publications, path is set in bib_fox.html, and filename needs to match citekey
+- adding the class font-weight-lighter along with title class to the navbar-brand in header.html is what highlights the last name 
+- can change name of pages in _pages seemingly without ill effect, what matters is the frontmatter yaml  
+- in default.html set set custom navbar style with header-custom.html (instead of header.html)
+
 
 # al-folio
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
