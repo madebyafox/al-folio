@@ -1,6 +1,6 @@
 ---
 layout: about-custom
-title: 
+title: about
 permalink: /
 subtitle:  Cognitive Science · Research  | Design 
           
